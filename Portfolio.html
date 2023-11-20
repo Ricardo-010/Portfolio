@@ -9,53 +9,85 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <div class="menu">
-        <button class="menu-button"><a href="#home" class="menu-button">HOME</a></button>
-        <button class="menu-button"><a href="#about" class="menu-button">ABOUT</a></button>
-        <button class="menu-button"><a href="#projects" class="menu-button">PROJECTS</a></button>
-        <button class="menu-button"><a href="#skills" class="menu-button">SKILLS</a></button>
-        <button class="menu-button"><a href="#contacts" class="menu-button">CONTATCS</a></button>
-    </div>
     <div class="main-container">
+        <!-- The Menu Bar -->
+        <div class="menu">
+            <!-- The Menu Button -->
+            <svg class="menu-svg" fill="orangered" width="2.5rem" height="2.5rem" onclick="toggleMenu()">
+                <image width="2.5rem" height="2.5rem" xlink:href="/Icons/menu.svg"/>
+            </svg>
+            <div class="menuButtons" id="menuContent">
+                <button class="menu-button" onclick="toggleMenu()"><a href="#home" class="menu-button">HOME</a></button>
+                <button class="menu-button" onclick="toggleMenu()"><a href="#about" class="menu-button">ABOUT</a></button>
+                <button class="menu-button" onclick="toggleMenu()"><a href="#projects" class="menu-button">PROJECTS</a></button>
+                <button class="menu-button" onclick="toggleMenu()"><a href="#skills" class="menu-button">SKILLS</a></button>
+                <button class="menu-button" onclick="toggleMenu()"><a href="#contacts" class="menu-button">CONTATCS</a></button>
+            </div>
+        </div>
+
+        <!-- The Side Bar -->
+        <div class="socials-section" id="socialContent">
+            <div class="social-icon">
+                <svg width="2.25rem" height="2.25rem">
+                    <image width="2.25rem" height="2.25rem" xlink:href="/Icons/github-mark-white.svg" />
+                </svg>
+            </div>
+            <div class="social-icon">
+                <svg width="2.25rem" height="2.25rem">
+                    <image width="2.25rem" height="2.25rem" xlink:href="/Icons/linkedin.svg"/>
+                </svg>
+            </div>
+            <div class="social-icon">
+                <svg width="3rem" height="3rem">
+                    <image width="3rem" height="3rem" xlink:href="/Icons/cv.svg" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- The Home Section -->
         <div class="landing-view" id="home">
             <div class="landing-section">
                 <div class="name">Hi, I'm <span class="name-colour">Ricardo Pelser</span></div>
                 <div class="description">Computer Science Student at The University of The Sunshine Coast</div>
-                <button class="explore-button">Explore</button>
+                <button class="explore-button" onclick="toggleSocials()">Professional Profiles</button>
             </div>
         </div>
         <div class="landing-view-logo">
             RP
         </div>
+        <canvas id="shapeCanvas"></canvas>
+
         <div class="about-section">
             <div class="headings" id="about">ABOUT</div>
+            <div>
+                <hr class="cus-hr">
+            </div>
+            <div class="about-text">
+                Hey! I'm <b>Ricardo Pelser</b>, a dedicated and passionate Computer Science student currently in my 4th year at the University of the Sunshine Coast in Australia.
+                <br><br>
+                My passion lies in crafting innovative solutions through programming, where I continuously seek to challenge myself and expand my capabilities. As I approach the culmination of my academic journey, I am eager to apply my knowledge and skills in real-world scenarios, especially in areas that require innovative computational solutions.
+            </div>
         </div>
         <div class="projects-section">
             <div class="headings" id="projects">PROJECTS</div>
+            <div>
+                <hr class="cus-hr">
+            </div>
         </div>
         <div class="skills-section">
             <div class="headings" id="skills">SKILLS</div>
+            <div>
+                <hr class="cus-hr">
+            </div> 
         </div>
         <div class="contact-section">
             <div class="headings" id="contacts">CONTACTS</div>
+            <div>
+                <hr class="cus-hr">
+            </div>
         </div>
     </div>
-    <div class="socials-section">
-        <div class="social-icon">
-            <svg width="3rem" height="3rem">
-                <image width="3rem" height="3rem" xlink:href="/Icons/github-mark-white.svg" />
-            </svg>
-        </div>
-        <div class="social-icon">
-            <svg width="3rem" height="3rem">
-                <image width="3rem" height="3rem" xlink:href="/Icons/linkedin.svg"/>
-            </svg>
-        </div>
-        <div class="social-icon">
-            <svg width="4rem" height="4rem">
-                <image width="4rem" height="4rem" xlink:href="/Icons/cv.svg" />
-            </svg>
-        </div>
-    </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
