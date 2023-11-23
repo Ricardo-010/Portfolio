@@ -17,3 +17,47 @@ function toggleSocials() {
         socials.style.right = '0px'; // Moves the sidebar on-screen
     }
 }
+
+document.getElementById('snakeDescButton').addEventListener('click', function() {
+    var description = document.getElementById('snakeDescription');
+    if (description.style.display === 'none') {
+        description.style.display = 'flex';
+        this.textContent = 'Hide Description...';
+    } else {
+        description.style.display = 'none';
+        this.textContent = 'Description...';
+    }
+});
+
+document.getElementById('responsiveDescButton').addEventListener('click', function() {
+    var description = document.getElementById('responsiveDescription');
+    if (description.style.display === 'none') {
+        description.style.display = 'flex';
+        this.textContent = 'Hide Description...';
+    } else {
+        description.style.display = 'none';
+        this.textContent = 'Description...';
+    }
+});
+
+document.getElementById('equinoxDescButton').addEventListener('click', function() {
+    var description = document.getElementById('equinoxDescription');
+    if (description.style.display === 'none') {
+        description.style.display = 'flex';
+        this.textContent = 'Hide Description...';
+    } else {
+        description.style.display = 'none';
+        this.textContent = 'Description...';
+    }
+});
+
+document.getElementById('bagDescButton').addEventListener('click', function() {
+    var description = document.getElementById('bagDescription');
+    if (description.style.display === 'none') {
+        description.style.display = 'flex';
+        this.textContent = 'Hide Description...';
+    } else {
+        description.style.display = 'none';
+        this.textContent = 'Description...';
+    }
+});

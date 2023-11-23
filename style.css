@@ -22,7 +22,6 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center; 
     justify-content: flex-start;
     min-height: 100vh;
 }
@@ -38,7 +37,7 @@ body {
     top: 0;
     box-sizing: border-box;
     border-bottom: 2px solid var(--colour2);
-    z-index: 1;
+    z-index: 10;
 }
 
 .menuButtons {
@@ -132,6 +131,11 @@ body {
     box-shadow: 0.5rem 0.5rem 0.5rem black;
 }
 
+.explore-button-text {
+    color: white;
+    text-decoration: none;
+}
+
 .explore-button:hover {
     filter: brightness(150%);
     box-shadow: 0.6rem 0.6rem 0.6rem black;
@@ -192,13 +196,24 @@ body {
     background-color: var(--colour3);
     display: flex;
     flex-direction: column;
+    position: relative;
     min-height: 100vh;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
+.oval {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 200px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
 .about-text {
-    color: lightgray;
+    color: white;
     padding-top: 1rem;
 }
 
@@ -209,6 +224,85 @@ body {
     min-height: 100vh;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.project-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.project-heading {
+    background: var(--colour2);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    position: absolute;
+    margin: 1rem;
+    z-index: 1;
+    bottom: 0;
+}
+
+.project-heading:hover {
+    filter: brightness(125%);
+}
+
+.project-description-button {
+    background-color: var(--colour1);
+    display: flex;
+    text-decoration: none;
+    color: lightgray;
+    font-style: italic;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.project-description-button:hover {
+    filter: brightness(150%);
+}
+
+.project-description {
+    color: lightgray;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.snake-video {
+    width: 100%;
+    filter: brightness(80%);
+}
+.snake-video:hover {
+    filter: brightness(100%);
+}
+
+#responsive-image {
+    filter: brightness(70%);
+}
+
+#responsive-image:hover {
+    filter: brightness(100%);
+}
+
+#equinox-image:hover {
+    filter: brightness(130%);
+}
+
+#bag-image {
+    filter: brightness(70%);
+}
+
+#bag-image:hover {
+    filter: brightness(100%);
 }
 
 .skills-section {

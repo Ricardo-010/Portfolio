@@ -49,7 +49,7 @@
             <div class="landing-section">
                 <div class="name">Hi, I'm <span class="name-colour">Ricardo Pelser</span></div>
                 <div class="description">Computer Science Student at The University of The Sunshine Coast</div>
-                <button class="explore-button" onclick="toggleSocials()">Professional Profiles</button>
+                <button class="explore-button" onclick="toggleSocials()"><a href="#home" class="explore-button-text">Professional Profiles</a></button>
             </div>
         </div>
         <div class="landing-view-logo">
@@ -62,10 +62,13 @@
             <div>
                 <hr class="cus-hr">
             </div>
+            <div class="oval">
+                <img src="/Images/Character.jpg" width="160px" height="280px">
+            </div>
             <div class="about-text">
                 Hey! I'm <b>Ricardo Pelser</b>, a dedicated and passionate Computer Science student currently in my 4th year at the University of the Sunshine Coast in Australia.
                 <br><br>
-                My passion lies in crafting innovative solutions through programming, where I continuously seek to challenge myself and expand my capabilities. As I approach the culmination of my academic journey, I am eager to apply my knowledge and skills in real-world scenarios, especially in areas that require innovative computational solutions.
+                My passion lies in creating innovative solutions through programming, where I continuously seek to challenge myself and expand my capabilities. As I approach the end of my academic journey, I am eager to apply my knowledge and skills in real-world scenarios, especially in areas that require innovative computational solutions.
             </div>
         </div>
         <div class="projects-section">
@@ -73,6 +76,49 @@
             <div>
                 <hr class="cus-hr">
             </div>
+            <div class="project-container">
+                <div class="project-heading">
+                    Snake Game
+                </div>
+                <video class="snake-video" autoplay muted loop>
+                    <source src="/Videos/SnakeGame.mp4" type="video/mp4">
+                </video>
+            </div>
+            <button class="project-description-button" id="snakeDescButton">Description...</button>
+            <div class="project-description" id="snakeDescription" style="display: none;">
+                <p>A multiplayer Snake game where players aim to grow the longest snake by eating apples, while outmaneuvering opponents and navigating obstacles like "zombie snakes" to dominate the dynamic playing field. The game features real-time player interaction and strategic challenges. It employs the A* search algorithm, enhanced with unique modifications for improved pathfinding and competitive edge.</p>
+            </div>
+            <div class="project-container">
+                <div class="project-heading">
+                    Responsive Website
+                </div>
+                <img src="/Images/ResponsiveWebsite.png" width="100%" id="responsive-image">
+            </div>
+            <button class="project-description-button" id="responsiveDescButton">Description...</button>
+            <div class="project-description" id="responsiveDescription" style="display: none;">
+                <p>A responsive website that illustrates the evolution of technology in workplace environments.</p>
+            </div>
+            <div class="project-container">
+                <div class="project-heading">
+                    Equinox
+                </div>
+                <img src="/Images/Equinox(Home).png" width="100%" id="equinox-image">
+            </div>
+            <button class="project-description-button" id="equinoxDescButton">Description...</button>
+            <div class="project-description" id="equinoxDescription" style="display: none;">
+                <p>Equinox aims to provide support during the COVID-19 quarantine. This application bridges the gap between patients seeking counselling and qualified counsellors. It features a user-friendly interface for both patients and counsellors to register and log in, facilitating an efficient matching process based on the issues patients need help with and the problems counsellors are equipped to handle.</p>
+            </div>
+            <div class="project-container">
+                <div class="project-heading">
+                    Haptualization Bag
+                </div>
+                <img src="/Images/HaptualizationBag.png" width="100%" id="bag-image">
+            </div>
+            <button class="project-description-button" id="bagDescButton">Description...</button>
+            <div class="project-description" id="bagDescription" style="display: none;">
+                <p>A functional prototype, "The Haptualization Bag," equipped with integrated electrical components including Micro:Bits, NeoPixel strips, and vibrating motors. This wearable device aims to help individuals with hearing impairments experience sound through their heightened senses of touch and sight.</p>
+            </div>
+
         </div>
         <div class="skills-section">
             <div class="headings" id="skills">SKILLS</div>
