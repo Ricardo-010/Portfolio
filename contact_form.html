@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Leckerli One' rel='stylesheet'>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="contactForm_style.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <input type="text" id="from_name" name="from_name" placeholder="Your Name">
+            <input type="email" id="from_email" name="from_email" placeholder="Your Email">
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            <label>
+                <input type="checkbox" id="cv_request" name="cv_request">
+                Request CV
+            </label>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+
+    <script src="contact_script.js"></script>
+</body>
+</html>

@@ -260,10 +260,13 @@ body {
     color: lightgray;
     font-style: italic;
     border: none;
+    margin-bottom: 2rem;
     padding: 0.5rem;
     cursor: pointer;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--colour2);
 }
 
 .project-description-button:hover {
@@ -298,7 +301,7 @@ body {
 }
 
 #bag-image {
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
 
 #bag-image:hover {
@@ -309,20 +312,10 @@ body {
     background-color: var(--colour3);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 4rem;
 }
-
-.contact-section {
-    background-color: var(--colour3);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
 
 #shapeCanvas {
     display: flex;
