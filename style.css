@@ -104,6 +104,7 @@ body {
     padding-bottom: calc(env(safe-area-inset-bottom) + 2rem);
     padding-right: 2rem;
     box-sizing: border-box;
+    padding-bottom: calc(env(safe-area-inset-bottom) + 2rem);
 }
 
 .name {
@@ -148,6 +149,11 @@ body {
 .explore-button:active {
     box-shadow: 0.2rem 0.2rem 0.2rem black;
 }
+
+.explore-button:focus {
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+
 
 .socials-section {
     border-top-left-radius: 1.5rem;
