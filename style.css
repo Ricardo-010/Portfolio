@@ -102,7 +102,7 @@ body {
     width: 100%;
     padding-left: 2rem;
     padding-bottom: 2rem;
-    padding-bottom: calc(2rem + env(safe-area-inset-bottom, 0));
+    padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0));
     padding-right: 2rem;
     box-sizing: border-box;
 }
