@@ -35,6 +35,7 @@ body {
     overflow: hidden;
     width: 100%;
     padding-left: 1rem;
+    box-sizing: border-box;
     top: 0;
     box-sizing: border-box;
     border-bottom: 2px solid var(--colour2);
@@ -84,6 +85,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    box-sizing: border-box;
     height: 100vh;    
     text-shadow: 
         var(--colour1) 0.5rem 1rem 0.3rem,
@@ -101,6 +103,7 @@ body {
     padding-left: 2rem;
     padding-bottom: 2rem;
     padding-right: 2rem;
+    box-sizing: border-box;
 }
 
 .name {
@@ -201,6 +204,7 @@ body {
     min-height: 100vh;
     padding-left: 2rem;
     padding-right: 2rem;
+    box-sizing: border-box;
 }
 
 .oval {
@@ -324,6 +328,7 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
+    box-sizing: border-box;
     z-index: -2; /* Ensures the canvas is behind other content */
     position: absolute;
     z-index: -2;
