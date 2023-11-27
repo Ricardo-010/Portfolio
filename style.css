@@ -72,7 +72,6 @@ body {
     text-align: left;
     width: 100%;
     height: 100vh;
-    padding-bottom: env(safe-area-inset-bottom);
 }
 
 .landing-view-logo {
@@ -102,7 +101,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     padding-left: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: calc(env(safe-area-inset-bottom) + 4rem);
     padding-right: 2rem;
     box-sizing: border-box;
 }
