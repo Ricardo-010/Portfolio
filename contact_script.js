@@ -16,7 +16,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Your message has been sent!');
-            window.location.href = 'Portfolio.html';
+            window.location.href = './index.html';
         }, function(error) {
             console.log('FAILED...', error);
             alert('Failed to send the message, please try again.');
