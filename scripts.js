@@ -13,7 +13,9 @@ function toggleSocials() {
     
     if (panelStyle.right === '0px') {
         socials.style.right = '-3rem'; // Moves the sidebar off-screen
+        socials.style.display= "none";
     } else {
+        socials.style.display= "flex";
         socials.style.right = '0px'; // Moves the sidebar on-screen
     }
 }
