@@ -394,7 +394,6 @@ body {
         padding-top: 5rem;
     }
     
-    /*Carry on from here*/
     .about-section {
         background-color: var(--colour3);
         display: flex;
@@ -421,7 +420,6 @@ body {
     }
 
     #oval-icon {
-        /* 160 280 */
         width: 200px;
         height: 300px;
     }
@@ -430,6 +428,86 @@ body {
         color: white;
         padding-top: 1rem;
         font-size: 1.25rem;
+    }
+
+    /* ------------- */
+    .projects-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .project-container {
+        width: 60%;
+    }
+    
+    .project-heading {
+        background: var(--colour2);
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 0.8rem;
+        position: absolute;
+        margin: 1rem;
+        z-index: 1;
+        bottom: 0;
+    }
+
+    .project-description-button {
+        width: 60%;
+        display: flex;
+        text-decoration: none;
+        color: lightgray;
+        font-style: italic;
+        border: none;
+        margin-bottom: 2rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid var(--colour2);
+    }
+    
+    .project-description-button:hover {
+        filter: brightness(150%);
+    }
+    
+    .project-description {
+        color: lightgray;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .snake-video {
+        width: 100%;
+        filter: brightness(80%);
+    }
+    .snake-video:hover {
+        filter: brightness(100%);
+    }
+    
+    #responsive-image {
+        filter: brightness(70%);
+    }
+    
+    #responsive-image:hover {
+        filter: brightness(100%);
+    }
+    
+    #equinox-image:hover {
+        filter: brightness(130%);
+    }
+    
+    #bag-image {
+        filter: brightness(60%);
+    }
+    
+    #bag-image:hover {
+        filter: brightness(100%);
     }
 }
 
