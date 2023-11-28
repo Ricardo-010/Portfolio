@@ -360,11 +360,6 @@ body {
         font-size: 1.25rem;
     }
 
-    /* Styles for tablets */
-    /* .landing-view {
-        justify-content: center;
-    } */
-
     .landing-view-logo {
         font-size: 12rem;
         align-items: center;
@@ -406,19 +401,25 @@ body {
         flex-direction: column;
         position: relative;
         min-height: 100vh;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
         box-sizing: border-box;
     }
     
     .oval {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        height: 200px;
-        width: 160px;
+        height: 300px;
+        width: 240px;
         border-radius: 50%;
         overflow: hidden;
         position: relative;
+    }
+
+    #oval-icon {
+        /* 160 280 */
+        width: 240px;
+        height: 400px;
     }
     
     .about-text {
