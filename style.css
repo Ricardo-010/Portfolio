@@ -181,6 +181,7 @@ body {
     margin-bottom: 0.5rem;
     width: 4rem;
     height: 4rem;
+    border-style: dashed;
 }
 
 .social-icon:hover {
@@ -448,7 +449,10 @@ body {
         font-size: 1.25rem;
     }
     
-
+    .skills-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
 
 @media (min-width: 1025px) {
