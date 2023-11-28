@@ -335,7 +335,7 @@ body {
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    z-index: -2; /* Ensures the canvas is behind other content */
+    z-index: -2;
     position: absolute;
     z-index: -2;
     background-color: var(--colour3);
@@ -377,6 +377,7 @@ body {
     .landing-section {
         padding-left: 3rem;
         padding-bottom: 3rem;
+        padding-bottom: calc(3rem + env(safe-area-inset-bottom, 0));
     }
 
     .name {
