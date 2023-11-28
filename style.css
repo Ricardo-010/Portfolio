@@ -350,9 +350,9 @@ body {
     }
 
     #menu_svg {
-        margin-left: 2rem;
         width: 3.5rem;
         height: 3.5rem;
+        padding: 2rem;
     }
     
     .menu-button {
