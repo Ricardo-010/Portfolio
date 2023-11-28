@@ -346,12 +346,12 @@ body {
 
 @media (min-width: 641px) { 
     /* Styles for tablets */
-    .landing-view {
+    /* .landing-view {
         justify-content: center;
-    }
+    } */
 
     .landing-view-logo {
-        font-size: 15rem;
+        font-size: 12rem;
         align-items: center;
         position: absolute;
         justify-content: center;
@@ -364,16 +364,16 @@ body {
     }
 
     .name {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     .description {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .explore-button {
         padding: 0.5rem 1rem;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     
     .headings {
