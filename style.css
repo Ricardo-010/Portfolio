@@ -407,19 +407,23 @@ body {
     }
     
     .oval {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         height: 300px;
         width: 240px;
         border-radius: 50%;
         overflow: hidden;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fffffff8;
     }
 
     #oval-icon {
         /* 160 280 */
-        width: 240px;
-        height: 400px;
+        width: 200px;
+        height: 300px;
     }
     
     .about-text {
