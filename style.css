@@ -425,6 +425,7 @@ body {
     .about-text {
         color: white;
         padding-top: 1rem;
+        font-size: 1.25rem;
     }
 }
 
