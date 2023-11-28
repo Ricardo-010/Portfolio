@@ -12,7 +12,7 @@ function toggleSocials() {
     var panelStyle = window.getComputedStyle(socials);
     
     if (panelStyle.right === '0px') {
-        socials.style.right = '-3rem'; // Moves the sidebar off-screen
+        socials.style.right = '-4rem'; // Moves the sidebar off-screen
         socials.style.display= "none";
     } else {
         socials.style.display= "flex";
