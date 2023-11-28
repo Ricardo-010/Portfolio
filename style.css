@@ -344,7 +344,21 @@ body {
 }
 
 
-@media (min-width: 641px) { 
+@media (min-width: 641px) {
+    .menu {
+        padding-left: 1.5rem;
+    }
+
+    #menu_svg {
+        margin-left: 2rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    
+    .menu-button {
+        font-size: 1.25rem;
+    }
+
     /* Styles for tablets */
     /* .landing-view {
         justify-content: center;
