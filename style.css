@@ -456,4 +456,61 @@ body {
 
 @media (min-width: 1025px) {
     /* Styles for desktops and laptops */
+    .menu {
+        padding-left: 1.5rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .menu-svg {
+        display: none;
+    }
+
+    #menuContent {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .menu-button {
+        font-size: 1.25rem;
+        margin-right: 1rem;
+    }
+
+    .landing-view-logo {
+        font-size: 15rem;
+    }
+
+    .name {
+        font-size: 4.5rem;
+    }
+
+    .explore-button {
+        padding: 0.75rem 1.25rem;
+    }
+    
+    
+
+
+    .projects-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    .project-container {
+        width: calc(100vh - 15rem);
+    }
+
+    .project-description-button {
+        width: calc(100vh - 15rem);
+        font-size: 1rem;
+    }
+    
+    .project-description {
+        font-size: 1.25rem;
+    }
+    
+    .skills-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
 }
