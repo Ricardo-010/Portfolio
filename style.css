@@ -488,9 +488,6 @@ body {
         padding: 0.75rem 1.25rem;
     }
     
-    
-
-
     .projects-section {
         padding-left: 3rem;
         padding-right: 3rem;
@@ -501,16 +498,6 @@ body {
     }
 
     .project-description-button {
-        width: calc(100vh - 15rem);
-        font-size: 1rem;
-    }
-    
-    .project-description {
-        font-size: 1.25rem;
-    }
-    
-    .skills-section {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        width: calc(100vh - 40%);
     }
 }
