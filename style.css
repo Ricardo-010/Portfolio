@@ -494,10 +494,10 @@ body {
     }
     
     .project-container {
-        width: calc(100vh - 40%);
+        width: calc(50vh);
     }
 
     .project-description-button {
-        width: calc(100vh - 40%);
+        width: calc(50vh);
     }
 }
