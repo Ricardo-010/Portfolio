@@ -497,7 +497,7 @@ body {
     }
     
     .project-container {
-        width: calc(100vh - 15rem);
+        width: calc(100vh - 40%);
     }
 
     .project-description-button {
